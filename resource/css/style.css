@@ -1,0 +1,42 @@
+
+h1{
+    font-family: 'Dangrek', cursive;
+    text-align: center;
+}
+
+#navegador ul{
+    list-style-type: none;
+    text-align: center;
+    font-family: 'Patrick Hand SC', cursive;
+    font-size: x-large;
+ }
+
+ .bolded { font-weight: bold; }
+
+ #navegador li{
+    display: inline;
+    text-align: center;
+    margin: 0 20px 0 0;
+ }
+
+
+ #navegador li a {
+    padding: 2px 7px 2px 7px;
+    color: #666;
+    text-decoration: none;
+    border-radius: 15px;
+ }
+
+
+ #navegador li a:hover{
+    background-color: #fdb1b1;
+    color: #ffffff;
+    box-shadow: 0 8px 16px 0 rgba(94, 94, 94, 0.24), 0 17px 50px 0 rgba(94, 94, 94, 0.19);
+ }
+
+body {
+    background: #FFD1D1; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top,#FFD1D1, #F9F9F9); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right,#FFD1D1, #F9F9F9); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right,#FFD1D1, #F9F9F9); /* For Firefox 3.6 to 15 */
+  }
