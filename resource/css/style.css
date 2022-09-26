@@ -3,6 +3,10 @@
   box-sizing: border-box;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 #tituloP{
   margin: 1em auto;
   font-family: 'Major Mono Display', monospace;
@@ -21,6 +25,7 @@ body {
   width: 100%;
   top: 0;
   left: 0;
+  z-index: 0;
 }
 
 .nav {
@@ -192,9 +197,6 @@ body {
   margin-bottom: 25px;
 }
 
-.profile-img-section {
-  position: relative;
-}
 
 .profile-img-line {
   background-color: var(--secundary-color);
@@ -215,6 +217,10 @@ body {
   font-weight: bold;
   margin: 20px;
   font-size: 40px;
+ }
+
+ .profile-img-section{
+  z-index: -1;
  }
 
  .imgP {
@@ -243,6 +249,7 @@ body {
     width: 100%;
     max-width: 270px;
     transform: scaleX(-1);
+    z-index: -1;
   }
   
   .seccion1 {
@@ -266,6 +273,17 @@ body {
     width: 100%;
   }
 
+}
+
+.estudios{
+
+}
+
+.textoE{
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 25px;
+  margin: 30px 0;
+  width: 100%;
 }
 
 
