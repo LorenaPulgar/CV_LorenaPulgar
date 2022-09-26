@@ -13,46 +13,71 @@
     <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5cada2de2d.js" crossorigin="anonymous"></script>
+    <script defer src="/resource/js/app.js"></script>
+    
 
 </head>
 <body>
     <!-- Inicio 1-->
-    <div id="tituloP">
-        <h1><span class="bolded">portafolio</span></h1>
-    </div>
-    <div id="name">
-        <h3><span class="bolded">Lorena Pulgar</span></h3>
-    </div>
-
-    <div id="navegador">
-        <nav>
-            <ul>
-                <li><a href="#"> <span class="bolded">Perfil</span></a></li>
-                <li><a href="#"><span class="bolded">Estudios</span></a></li>
-                <li><a href="#"><span class="bolded">Experiencia</span></a></li>
-                <li><a href="#"><span class="bolded">Contáctame</span></a></li>
-            </ul>
+    <header class="header">
+        <div id="tituloP">
+            <h1><span class="bolded">curriculum</span></h1>
+        </div>
+        <nav class="nav">
+          <a href="#" class="logo nav-link">LorenaPulgar</a>
+          <button class="open-menu" aria-label="Abrir menú">
+            <i class="fa-solid fa-bars-staggered" alt="abrir menú"></i>
+          </button>
+          <ul class="menu">
+            <button class="close-menu" aria-label="Cerrar menú">
+              <i class="fa-solid fa-xmark" alt="cerrar menú"></i>
+            </button>
+            <li class="nav-menu-item">
+              <a href="#" class="nav-menu-link nav-link">¿Quien Soy?</a>
+            </li>
+            <li class="nav-menu-item">
+              <a href="#" class="nav-menu-link nav-link">Estudios</a>
+            </li>
+            <li class="nav-menu-item">
+              <a href="#" class="nav-menu-link nav-link">Experiencia</a>
+            </li>
+            <li class="nav-menu-item">
+              <a href="#" class="nav-menu-link nav-link">habilidades</a>
+            </li>
+            <li class="nav-menu-item">
+                <a href="#" class="nav-menu-link nav-link">Contactame!</a>
+              </li>
+          </ul>
         </nav>
-    </div>
+      </header>
 
-    <div1>
-        <main>
-            <section id="Perfil">
-                <p>
-                    Soy estudiante de ingeniería de sistemas en la universidad del magdalena. Con conocimiento de programación (En lenguajes como C++, Java y Python), 
-                    conocimientos introductorios de desarrollo web (HTML 5, CSS, JavaScript, manejo de Bootstrap) y manejo de frameworks como Vue y Django, también se 
-                    el manejo de sistemas de gestión de bases de datos PostgreSQL y MySQL.
-                </p>
-                <p>
-                    Me caracterizo por tener habilidades blandas como lo es el liderazgo, la responsabilidad y creatividad; he participado como parte de logística en 
-                    los grupos estudiantiles como el IEEE y CINSIS.
-                </p>
-            </section>
-        </main>
-    </div1>
-    <div id="Descripción">
+    <main class="horizontal-padding vertical-padding">
+        <section class="seccion1">
+          <span class="profile-img-section">
+            <img src="/resource/image/b475be52a565c88c88cac787f0a38a97.jpg" class="imgP" alt="programadora"/>
+            <div class="profile-img-line"></div>
+          </span>
+          <div class="profile-info">
+            <h1 class="Saludo"> Holi, soy Lorena Pulgar :)</h1>
+            <p class="textoP">
+                Soy estudiante de ingeniería de sistemas en la universidad del magdalena. Con conocimiento de programación (En lenguajes como C++, Java y Python), 
+                conocimientos introductorios de desarrollo web (HTML 5, CSS, JavaScript, manejo de Bootstrap) y manejo de frameworks como Vue y Django, también se 
+                el manejo de sistemas de gestión de bases de datos PostgreSQL y MySQL.
+            </p>
+            <p class="textoP">
+                Me caracterizo por tener habilidades blandas como lo es el liderazgo, la responsabilidad y creatividad; he participado como parte de logística en 
+                los grupos estudiantiles como el IEEE y CINSIS.
+            </p>
+          </div>
+        </section>
 
-    </div>
+        <section class="Estudios">
+          
+        </section>
+    </main>
+    
     
 
 
