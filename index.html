@@ -37,26 +37,26 @@
               <i class="fa-solid fa-xmark" alt="cerrar menú"></i>
             </button>
             <li class="nav-menu-item">
-              <a href="#" class="nav-menu-link nav-link">¿Quien Soy?</a>
+              <a href="#Perfil" class="nav-menu-link nav-link">¿Quien Soy?</a>
             </li>
             <li class="nav-menu-item">
-              <a href="#" class="nav-menu-link nav-link">Inspiración</a>
+              <a href="#InspiracionSes" class="nav-menu-link nav-link">Inspiración</a>
             </li>
             <li class="nav-menu-item">
-              <a href="#" class="nav-menu-link nav-link">Estudios</a>
+              <a href="#EstudiSes" class="nav-menu-link nav-link">Estudios</a>
             </li>
             <li class="nav-menu-item">
-              <a href="#" class="nav-menu-link nav-link">habilidades</a>
+              <a href="#HabSes" class="nav-menu-link nav-link">habilidades</a>
             </li>
             <li class="nav-menu-item">
-                <a href="#" class="nav-menu-link nav-link">Contactame!</a>
+                <a href="#ContSes" class="nav-menu-link nav-link">Contactame!</a>
               </li>
           </ul>
         </nav>
       </header>
 
     <main class="horizontal-padding vertical-padding">
-        <section class="seccion1">
+        <section class="seccion1" id="Perfil">
           <span class="profile-img-section">
             <img src="/resource/image/16642470827313.jpg" class="imgP" alt="programadora"/>
             <div class="profile-img-line"></div>
@@ -77,7 +77,7 @@
 
         <hr/>
 
-        <section class="seccion2">
+        <section class="seccion2" id="InspiracionSes">
           <h1 class="TituSeccion2"> Foto de inspiración</h1>
           <div class="TextIns">
             Mas que identificarme, esta imagen es el sentimiento que me describe, ya que es una combinación de todo bajo un mismo color; el color se llama glauco, 
@@ -89,8 +89,10 @@
             <div class="img-line"></div>
           </div>
         </section>
+
         <hr/>
-        <section class="Estudios">
+        
+        <section class="Estudios" id="EstudiSes">
           <h1 class="TituloEstudios"> Estudios y Experiencias</h1>
           <div class="EstudiosM">
             <ul>
@@ -136,7 +138,7 @@
           </div>
         </section>
         <hr/>
-        <section class="Habilidades">
+        <section class="Habilidades" id="HabSes">
           <h1 class="TituHab"> Habilidades </h1>
           <div class="TablaHab">
             <table class="tablita">
@@ -219,8 +221,63 @@
         </section>
 
         <hr/>
-        <section class="SContac">
 
+        <section class="SContac" id="ContSes">
+          <h1 class="TituContac"> Contacto </h1>
+          <div class="Contact-details"> 
+            <div class="Contac-group">
+              <p class="textoC"> Dirección: </p>
+              <p class="TextDesc"> Santa Marta - Colombia</p>
+            </div>
+            <div class="Contac-group">
+              <p class="textoC"> Email: </p>
+              <p class="TextDesc"> LorenaPulgar02@gmail.com</p>
+            </div>
+            <div class="Contac-group">
+              <p class="TextDesc"> 
+                Envié un correo para obtener más información y yo con gusto lo atenderé 😊 
+              </p>
+            </div>
+          </div>
+          <form class="Contac-form">
+            <div class="ContactForm-group">
+              <label for="asunto"> Asunto </label>
+              <input required type="text" name="asunto" id="asunto">
+            </div>
+            <div class="ContactForm-group">
+              <label for="email"> Email </label>
+              <input required type="email" name="email" id="email">
+            </div>
+            <div class="ContactForm-group">
+              <label for="message"> Mensaje </label>
+              <textarea required name="message" id="message" rows="6"></textarea>
+            </div>
+            <button type="submit" class="btnContac" id="btnContac">Enviar</button>
+          </form>
+          <nav class="social">
+            <ul class="SocialMedia">
+              <li>
+                <a target="_blank" href="https://www.instagram.com/lorenapulgar02/">
+                  <i class="fa-brands fa-instagram fa-2xl" alt="InstagramProfile" ></i>
+                </a>
+              </li>
+              <li>
+                <a target="_blank" href="http://Wa.me/+573205513563">
+                  <i class="fa-brands fa-whatsapp fa-2xl" alt="WhatsappProfile"></i>
+                </a>
+              </li>
+              <li>
+                <a target="_blank" href="https://www.linkedin.com/in/lorenapulgar/">
+                  <i class="fa-brands fa-linkedin fa-2xl" alt="Linkedinprofile"></i>
+                </a>
+              </li>
+              <li>
+                <a target="_blank" href="https://github.com/LorenaPulgar">
+                  <i class="fa-brands fa-github fa-2xl" alt="GitHubprofile"></i>
+                </a>
+              </li>
+            </ul>
+          </nav>
         </section>
 
     </main>
